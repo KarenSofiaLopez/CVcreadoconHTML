@@ -1,6 +1,8 @@
 h2{
     font-weight: bold;
-
+    font-family: 'Averia Gruesa Libre', cursive;
+    font-size: 25px;
+    
 }
 img{
     
@@ -8,10 +10,14 @@ img{
     border: 5px solid burlywood;
 }
 h1{
-    margin-left: 510px;
+    margin-left: 450px;
     font-weight: bold;
     font-style:inherit;
+    font-family: 'WindSong', cursive;
+
 }
+
+
 body{
     background-color:rgba(85,87,146,0.2);
     ;
@@ -34,4 +40,29 @@ body{
 }
 #cambiocaja:hover{
     background-color: chartreuse;
+}
+.texto{
+    widht:500px;
+    column-count: 2;
+    column-gap: 50px;
+    background-color: cadetblue;
+    margin-bottom: 20px;
+    column-rule: solid black;
+    border-radius: 5px 0;
+    
+   
+}
+.texto p{
+ 
+    margin: 0;
+    font-size: 15px;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Alegreya', serif;
+}
+ul{
+    font-family: 'Alegreya', serif;
+    font-size: 20px;
 }
